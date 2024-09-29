@@ -6,7 +6,8 @@
   
   body {
     font-family: Arial, sans-serif;
-
+     align-items: center;
+     align-content: center;
       color: white; 
   }
 
