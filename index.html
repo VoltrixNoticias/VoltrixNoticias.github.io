@@ -25,30 +25,30 @@
         </nav> -->
       </header>
       
-      <main>
+      
+      <!-- Portada de noticia principal -->
+      <section class="portada-not">
+        <div class="portada-nota">
+          <a href="noticia-portada.html">
+        <picture>
+          <!-- Imagen para dispositivos móviles (máximo 600px de ancho) -->
+          <source srcset="img/portada.png" media="(max-width: 600px)">
+          
+          <!-- Imagen para dispositivos de escritorio (ancho mayor a 600px) -->
+          <source srcset="img/portada-desktop.png" media="(min-width: 601px)">
+          
+          <!-- Imagen predeterminada (si el navegador no soporta <picture>) -->
+            <img src="img/portada.png" alt="Imagen adaptable">
+          </picture>
+      </a>  
+    </div>
+  </section>
 
 
-    <!-- Portada de noticia principal -->
-    <section class="portada-not">
-      <a href="noticia-portada.html">Ir a la noticia</a>  
-      <picture>
-        <!-- Imagen para dispositivos móviles (máximo 600px de ancho) -->
-        <source srcset="img/portada.png" media="(max-width: 600px)">
-        
-        <!-- Imagen para dispositivos de escritorio (ancho mayor a 600px) -->
-        <source srcset="img/portada-desktop.png" media="(min-width: 601px)">
-        
-        <!-- Imagen predeterminada (si el navegador no soporta <picture>) -->
-        <img src="img/portada.png" alt="Imagen adaptable">
-      </picture>
-      
-      
-    </section>
     
     <!-- Sección de noticias y publicidad -->
     <section class="seccion-noticias">
 
-      <h2>Ultimas Noticias</h2>
       <div class="lava-background">
         <!-- Crea varias burbujas con diferentes clases para variar tamaños -->
         <div class="bubble bubble1"></div>
@@ -61,17 +61,21 @@
         <div class="bubble bubble8"></div>
         <div class="bubble bubble9"></div>
         <div class="bubble bubble10"></div>
-    </div>
+      </div>
+
+      
+  
+  <h2>Ultimas Noticias</h2>
       <div class="news-cards">
         <!--CARDS -->
         <div class="cards">
           <div class="card-3">     
-           <a href="noticia-3.html">Ir a la noticia 1</a>   
-
-           <picture>
-            <source srcset="img/nota-3.png" media="(max-width: 600px)">
-            <source srcset="img/nota-3desk.png" media="(min-width: 601px)">
-            <img src="img/nota-3.png" alt="Imagen adaptable">
+            <a href="noticia-3.html">Ir a la noticia 1</a>   
+            
+            <picture>
+              <source srcset="img/nota-3.png" media="(max-width: 600px)">
+              <source srcset="img/nota-3desk.png" media="(min-width: 601px)">
+              <img src="img/nota-3.png" alt="Imagen adaptable">
           </picture>
 
             </div>
@@ -104,7 +108,7 @@
     
     </section>
     
-  </main>
+ 
   
   <section class="publicidad">
 <!-- <img src="img/publicidad.png" alt="" srcset="">  --> 
