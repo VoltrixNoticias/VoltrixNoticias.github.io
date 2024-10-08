@@ -45,12 +45,15 @@ section.otras-notas h2{
 
 /********************MOBILE***********************/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 
 
     .contenedor-nota{
         margin: 1rem;
-     
+        width: 900px;
+        height: 40rem;
+         background-image: url(img/portada.png);
+         background-size: cover;
     
     }
     .contenedor-nota img{
